@@ -23,11 +23,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-do7!j$k-6zw$2fu-tm9vlu$^hs$d#fat6%#0j!wa1133wdp5fm'
 
-NEWS_API_KEY = '92ee8fd958374204ada73045c7fe5936'
-WEATHER_API_KEY = '206c04ecd30711b37b3e460efd0e40d7'
+NEWS_API_KEY = '*********************************'
+WEATHER_API_KEY = '*********************************'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["*"]
 
@@ -84,11 +84,11 @@ WSGI_APPLICATION = 'Test_asbot.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'block_2_project',
-        'USER': 'postgres',
-        'PASSWORD': 'pstgr_28.09_ig',
-        'HOST': 'localhost',
-        'PORT': '5432',
+        'NAME': '**********',
+        'USER': '**********',
+        'PASSWORD': '**********',
+        'HOST': '**********',
+        'PORT': '**********',
     }
 }
 
