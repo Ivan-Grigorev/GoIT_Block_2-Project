@@ -25,9 +25,9 @@ pipenv sync
 To set up a database connection, enter the necessary settings for connecting to yor database in `settings.py` located in the application folder.
 
 ### API key settings
-1. NEWS API key.\
-For get NEWS API key go to https://newsapi.org and go trough authorization. Then enter yor API key in NEWS_API_KEY in `settings.py` located in the application folder.
-2. WEATHER API key.\
+NEWS API key.\
+For get NEWS API key go to https://newsapi.org and go trough authorization. Then enter yor API key in NEWS_API_KEY in `settings.py` located in the application folder.\
+WEATHER API key.\
 For get NEWS API key go to https://openweathermap.org and go trough authorization. Then enter yor API key in WEATHER_API_KEY in `settings.py` located in the application folder.
 
 ### Run the application
