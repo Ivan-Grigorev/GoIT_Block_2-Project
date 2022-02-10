@@ -40,4 +40,4 @@ Open your favorite browser and check at `http://127.0.0.1:8000/`. You should see
 Below an example:
 ![login_page_example](https://github.com/Ivan-Grigorev/GoIT_Block_2-Project/blob/main/login_page_example.png)
 
-Great! Now to access all the function of the application you need to go through authorization.
+Great! Now to access all the functions of the application you need to go through authorization.
