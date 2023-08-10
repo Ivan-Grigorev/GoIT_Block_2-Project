@@ -1,7 +1,7 @@
 # "Personal Assistant" application - Python Django project
 The "Personal Assistant" application is designed as an everyday helper application for the user with the following features:
 - **Address book.** Allows the user to add and edit contacts including phone numbers, addresses and even birthdays;
-- **Note book.** Allows the user to add and edit notes with titles and tags;
+- **Notebook.** Allows the user to add and edit notes with titles and tags;
 - **News.** Contains a summary of popular news: world, sports, finance, entertainment and technology;
 - **Weather.** Displays a constant weather forecast at the user's location and also has the ability to display the weather forecast in any city in the world;
 - **Currency Converter.** The scrooling line displays the current exchange rates, and the converter allows you to calculate the rates of the current currencies of the world;
@@ -16,7 +16,7 @@ Install it by using pip:
 ```
 pip install pipenv
 ```
-For the application to work corretly, you need to install the neccessary Python libraries. For the installation of the libraries, use the following command:
+For the application to work correctly, you need to install the necessary Python libraries. For the installation of the libraries, use the following command:
 ```
 pipenv sync
 ```
@@ -26,9 +26,9 @@ To set up a database connection, enter the necessary settings for connecting to 
 
 ### API key settings
 NEWS API key.\
-For get NEWS API key go to https://newsapi.org and go trough authorization. Then enter yor API key in NEWS_API_KEY in `settings.py` located in the application folder.\
+For get NEWS API key go to https://newsapi.org and go through authorization. Then enter yor API key in NEWS_API_KEY in `settings.py` located in the application folder.\
 WEATHER API key.\
-For get NEWS API key go to https://openweathermap.org and go trough authorization. Then enter yor API key in WEATHER_API_KEY in `settings.py` located in the application folder.
+For get NEWS API key go to https://openweathermap.org and go through authorization. Then enter yor API key in WEATHER_API_KEY in `settings.py` located in the application folder.
 
 ### Run the application
 If everything has been installed correctly, run the development server.\
